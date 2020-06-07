@@ -7,7 +7,7 @@
 
 ::: column.grow
 Every day we are surrounded by countless connections and networks: roads and
-rail tracks, phone lines, the internet, electronic circuits and even molecular
+rail tracks, phone lines, the Internet, electronic circuits and even molecular
 bonds. There are also _social networks_ between friends and families. All these
 systems consist of certain _points_ called [[vertices|circles|crossings]], some
 of which are connected by [[edges|boundaries|pairs]]. In mathematics, this is
@@ -151,7 +151,7 @@ Euler](bio:euler). Euler was intrigued by an old problem regarding the town of
 Königsberg near the Baltic Sea.
 
 The river Pregel divides Königsberg into four separate parts, which are
-connected by seven Bridges. Is it possible to walk around the city crossing all
+connected by seven bridges. Is it possible to walk around the city crossing all
 of the bridges exactly once – but not more than once? (You can start and finish
 anywhere, not necessarily in the same place.)
 
@@ -837,8 +837,8 @@ possible paths becomes impossible, even using powerful computers.
 > id: salesman-4
 > goals: move
 
-Unfortunately there is no more efficient algorithm to solve the travelling
-salesman problem. Instead, mathematicians and computer scientists have developed
+Unfortunately there is no more efficient algorithm to solve the Travelling
+Salesman problem. Instead, mathematicians and computer scientists have developed
 various algorithms that find _good_ solutions, even if they may not be the very
 best one. These algorithms, which only give approximate solutions, are called
 __Heuristics__.
@@ -917,7 +917,7 @@ leave along their trail, and which other ants can follow.
 ::: column.grow
 Ant Colony System (ACS) algorithms try to replicate this behaviour on computers,
 using many “virtual” ants. They can quickly find very good solutions for the
-travelling salesman problem.
+Travelling Salesman problem.
 
 One particularly useful property of ACS algorithms is that they can run
 continuously and adapt in real time to changes to the graph. These changes could
@@ -938,7 +938,7 @@ very difficult to be solved by computers (at least for large numbers of cities).
 
 Finding a fast and exact algorithm would have serious implications in the field
 of computer science: it would mean that there are fast algorithms for _all_
-NP-hard problems. It would also render most of internet security useless, which
+NP-hard problems. It would also render most of Internet security useless, which
 relies on the fact that certain problems are believed to be very difficult for
 computers.
 
@@ -954,7 +954,7 @@ Problems](gloss:millennium-prize), each carrying a \$1m prize.
 
 ## Scheduling Problems
 
-TODO
+{.todo} Coming Soon
 
 ---
 > id: applications
@@ -967,7 +967,7 @@ some were somehow contrived. It turns out, however, that graphs are at the very
 heart of many objects and concepts in everyday life.
 
 ::: column.grow
-The internet, for example, is a vast, virtual graph. Every vertex is an
+The Internet, for example, is a vast, virtual graph. Every vertex is an
 individual webpage, and every edge means that there is a hyperlink between two
 pages. Note that links only go one way, so this graph is
 [[directed|multi-line|conected]], and that this graph is _very, very, large_.
@@ -995,8 +995,8 @@ search engines.
 ---
 > id: applications-2
 
-The internet is the largest network ever created by mankind. This image shows a
-very small proportion of all the servers connected to the internet:
+The Internet is the largest network ever created by mankind. This image shows a
+very small proportion of all the servers connected to the Internet:
 
     x-parallax.full-width(background="images/internet.jpg")
       .credit © LyonLabs, LLC and Barrett Lyon, 2014
@@ -1162,7 +1162,7 @@ friends. And this includes celebrities, politicians or royalty…
 
 ::: column.grow
 In 1929, when the Hungarian author [Frigyes Karinthy](bio:karinthy) first
-proposed the idea of “six degrees of Separation”, there was no internet or
+proposed the idea of “six degrees of Separation”, there was no Internet or
 social media, but the world had already started to become more interconnected.
 
 In 1967, [Stanley Milgram](bio:milgram) conducted a first empirical experiment,
@@ -1174,4 +1174,4 @@ average, only 5.2 intermediate friends &#8211; 5.2 degrees of separation.
 :::
 
 Today, every one of us is part of countless invisible graphs, which underlie our
-social interactions, travel, internet and technology, science, and so much more.
+social interactions, travel, Internet and technology, science, and so much more.
